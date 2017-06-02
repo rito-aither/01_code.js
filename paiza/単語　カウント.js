@@ -1,8 +1,5 @@
 process.stdin.resume();
 process.stdin.setEncoding('utf8');
-// 自分の得意な言語で
-// Let's チャレンジ！！
-
 
 process.stdin.on('data', function (chunk) {
     var line = chunk.toString().split('\n');
