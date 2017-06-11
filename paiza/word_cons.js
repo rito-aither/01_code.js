@@ -27,7 +27,7 @@ function ansa(){
              
     
         if (line[i]==line[j]) cons++ ;
-        var consle = cosarray.length ;
+       // var consle = cosarray.length ;
         
   //     cosarray[consle] =cons ;
      //  console.log(consle);
@@ -43,13 +43,14 @@ function ansa(){
   {
       console.log(enter[l]);
   }*/
+ // enter.pop() ;
   for(var pname in enter){
   console.log(pname ,enter[pname] );
 }
   
   
- // console.log(cosarray);
- // console.log(enter);  
+console.log(cosarray);
+console.log(enter);  
 }
 
     
