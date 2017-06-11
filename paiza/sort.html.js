@@ -6,6 +6,8 @@ process.stdin.setEncoding('utf8');
 
 process.stdin.on('data', function (chunk) {
     var line = chunk.toString().split('\n');
+        line.pop();
+        line = line.toString().split(",");
    // var ans1 = parseInt(line[0], 10);
     //var ans2 = parseInt(line[1],10);
     //var ans  = ans1+ans2;
@@ -20,10 +22,13 @@ ansa();
 function ansa(){
     
  for (i=0;i<line.length;i++){
-        console.log(line[i]);
-    }
+        if(line[i]!==line[i-1])  { 
+            console.log(line[i]);
+    
+        }
+     }
     
 }
-    console.log(line);
+   // console.log(line);
 });
 
