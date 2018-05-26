@@ -5,3 +5,28 @@ Author URI: http://ritoxd2.php.xdomain.jp:
 Description:test
 */
 
+body{
+
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a{
+
+    text-decoration: nome ;
+
+
+}
+
+p{
+
+    margin: 0px;
+    line-height: 1.0px;
+
+}
+
+.title{
+
+    font-style: italic;
+}
